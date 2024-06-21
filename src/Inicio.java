@@ -33,7 +33,7 @@ public class Inicio {
         iniciarSesionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(intento.equals("TADIO") && contrai.equals("2004")){
+                if(intento.equals(usuario1) && contrai.equals(contra1)){
                     Nombre.setText("Bienvenido");
                     Contraseña.setText("");
                     usuario.setText("");
