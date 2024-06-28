@@ -15,9 +15,9 @@ public class Main {
         JFrame frame = new JFrame("Mi aplicacion");
         frame.setContentPane(new IntentoCalculadora().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(1000, 600);
         frame.pack();
         frame.setVisible(true);
-        /*a*/
 
 
 /*

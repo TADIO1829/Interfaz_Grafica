@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
 
 public class IntentoCalculadora {
     public JPanel panel1;
@@ -12,6 +13,9 @@ public class IntentoCalculadora {
     public JTextField NUM2;
     public JLabel Respuesta;
     public JLabel resultado;
+    private JButton Seno;
+    private JButton Coseno;
+    private JButton Tangente;
     Double numero,numero2;
 
 
@@ -62,6 +66,29 @@ public class IntentoCalculadora {
                     resultado.setText(division.toString());
 
                 }
+            }
+        });
+        Seno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Double seno = Math.sin(Math.toRadians(numero));
+                resultado.setText(seno.toString());
+
+            }
+        });
+        Coseno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Double coseno = Math.cos(Math.toRadians(numero));
+                resultado.setText(coseno.toString());
+
+            }
+        });
+        Tangente.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Double tangente = Math.cos(Math.toRadians(numero));
+                resultado.setText(tangente.toString());
             }
         });
     }
