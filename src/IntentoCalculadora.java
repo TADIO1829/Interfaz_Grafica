@@ -28,7 +28,7 @@ public class IntentoCalculadora {
         NUM2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String num2 = NUM1.getText();
+                String num2 = NUM2.getText();
                 numero2= Double.parseDouble(num2);
             }
         });
