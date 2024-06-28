@@ -11,21 +11,21 @@ public class Main {
         frame.setVisible(true);
 
         */
-        /*
+
         JFrame frame = new JFrame("Mi aplicacion");
         frame.setContentPane(new IntentoCalculadora().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
 
-         */
 
+/*
         JFrame frame = new JFrame("Mi aplicacion");
         frame.setContentPane(new Inicio().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
 
-
+*/
     }
 }
